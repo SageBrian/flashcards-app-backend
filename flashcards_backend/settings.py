@@ -14,7 +14,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-change-this-in-prod
 
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://flashcards-app-backend-nrhd.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'flashcards-app-backend-nrhd.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
